@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://gioui.org/doc/install/ios -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>iOS, tvOS</title>
+	<meta name="description" content="Gio is an open source library for creating portable, immediate mode GUI programs for Android, iOS, Linux, Windows, macOS.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon196.png" sizes="196x196" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon32.png" sizes="32x32" media="(prefers-color-scheme:light)">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon196-white.png" sizes="196x196" media="(prefers-color-scheme:dark)">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon32-white.png" sizes="32x32" media="(prefers-color-scheme:dark)">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon196.png" sizes="196x196" media="(prefers-color-scheme:no-preference)">
+	<link rel="icon" type="image/png" href="https://gioui.org/files/favicon32.png" sizes="32x32" media="(prefers-color-scheme:no-preference)">
+	<link rel="stylesheet" href="./iOS, tvOS_files/style.css">
+
+	<link rel="alternate" type="application/rss+xml" title="Gio News" href="https://gioui.org/news/rss.xml">
+</head>
+	<body>
+	<div class="layout-with-sidebar">
+		<aside id="sidebar" class="layout-sidebar nice-scroll">
+	<header class="logo">
+		<a href="https://gioui.org/">
+			<img class="icon" src="./iOS, tvOS_files/logo-text.svg" alt="Gio logo">
+		</a>
+	</header>
+
+	<nav id="menu">
+		<ul>
+			<li><a href="https://gioui.org/">Home</a>
+			</li>
+			
+
+<li>
+	<a href="https://gioui.org/news">Newsletter</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install" aria-describedby="current">Install</a>
+	
+	<input class="nav-toggle" id="doc/install" type="checkbox" checked="">
+	<label for="doc/install"><span class="font-size:small">▼</span></label>
+	<ul>
+
+<li>
+	<a href="https://gioui.org/doc/install/linux">Linux</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install/windows">Windows</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install/macos">macOS</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install/android">Android</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install/ios" aria-describedby="current">iOS, tvOS</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/install/wasm">WebAssembly</a>
+	
+</li>
+
+</ul>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/learn">Learn</a>
+	
+	<input class="nav-toggle" id="doc/learn" type="checkbox">
+	<label for="doc/learn"><span class="font-size:small">▼</span></label>
+	<ul>
+
+<li>
+	<a href="https://gioui.org/doc/learn/get-started">Get Started</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/learn/split-widget">Split Widget</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/learn/common-errors">Common Errors</a>
+	
+</li>
+
+</ul>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase">Showcase</a>
+	
+	<input class="nav-toggle" id="doc/showcase" type="checkbox">
+	<label for="doc/showcase"><span class="font-size:small">▼</span></label>
+	<ul>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/g45w">G45W</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/godcr">godcr</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/gotraceui">gotraceui</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/photon">Photon</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/protonet">Protonet</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/sointu">Sointu</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/sprig">Sprig</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/tailscale">Tailscale</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/showcase/wormhole-william">Wormhole William</a>
+	
+</li>
+
+</ul>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture">Architecture</a>
+	
+	<input class="nav-toggle" id="doc/architecture" type="checkbox">
+	<label for="doc/architecture"><span class="font-size:small">▼</span></label>
+	<ul>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/window">Window</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/drawing">Drawing</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/input">Input</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/widget">Widget</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/layout">Layout</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/theme">Theme</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/units">Units</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/architecture/text">Text</a>
+	
+</li>
+
+</ul>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/community">Community</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/contribute">Contributing</a>
+	
+</li>
+
+<li>
+	<a href="https://gioui.org/doc/faq">FAQ</a>
+	
+</li>
+
+
+		</ul>
+	</nav>
+</aside>
+
+
+		<div class="layout-content layout-with-caption">
+			
+<header id="caption" class="layout-caption">
+	<h1>
+		<div>iOS, tvOS</div>
+		
+	</h1>
+</header>
+
+			
+
+
+			<div class="layout-with-toc">
+				
+<aside class="layout-toc">
+	<nav id="toc" class="sticky-toc">
+		<ul>
+			
+			<li><a href="https://gioui.org/doc/install/ios#dependencies">Dependencies</a></li>
+			
+			<li><a href="https://gioui.org/doc/install/ios#building">Building</a></li>
+			
+			<li><a href="https://gioui.org/doc/install/ios#integrate">Integrate</a></li>
+			
+		</ul>
+
+		
+	</nav>
+</aside>
+
+				<main>
+					
+<h2 id="dependencies">Dependencies</h2>
+
+<p>Xcode is required for Apple platforms.</p>
+
+<h2 id="building">Building</h2>
+
+<p>Install <code>gogio</code>, if you already haven’t:</p>
+
+<pre><code class="language-sh">go install gioui.org/cmd/gogio@latest
+</code></pre>
+
+<p>The <code>-appid</code> flag specifies the iOS bundle id or Android package id. The flag is
+required for creating signed .ipa files for iOS and tvOS devices, because the
+bundle id must match an id previously provisioned in Xcode. For example,</p>
+
+<pre><code class="language-sh">gogio -target ios -appid &lt;bundle-id&gt;	gioui.org/example/kitchen
+</code></pre>
+
+<p>Use the <code>Window-&gt;Devices and Simulators</code> option in Xcode to install the ipa file
+to the device. If you have <a href="https://github.com/libimobiledevice/ideviceinstaller">ideviceinstaller</a> installed, you can
+install the app from the command line:</p>
+
+<pre><code class="language-sh">ideviceinstaller -i kitchen.ipa
+</code></pre>
+
+<p>If you just want to run a program on the iOS simulator, use the <code>-o</code> flag to
+specify a .app directory:</p>
+
+<pre><code class="language-sh">gogio -o kitchen.app -target ios	gioui.org/example/kitchen
+</code></pre>
+
+<p>Install the app to a running simulator with simctl:</p>
+
+<pre><code class="language-sh">xcrun simctl install booted kitchen.app
+</code></pre>
+
+<h2 id="integrate">Integrate</h2>
+
+<p>The <code>gogio</code> tool can also produce a framework ready to include in an iOS or tvOS
+Xcode project. The command</p>
+
+<pre><code class="language-sh">gogio -target ios -buildmode archive gioui.org/example/kitchen
+</code></pre>
+
+<p>outputs Kitchen.framework with the demo program built for iOS.</p>
+
+<p>To run the Gio program, use the GioAppDelegate class from your program:</p>
+
+<pre><code class="language-objc">@import UIKit;
+@import Gio;
+
+int main(int argc, char * argv[]) {
+	@autoreleasepool {
+		return UIApplicationMain(argc, argv, nil, NSStringFromClass([GioAppDelegate class]));
+	}
+}
+</code></pre>
+
+
+					<div class="layout-stretch"></div>
+					
+					<div class="layout-pagination">
+						
+						<a class="before" href="https://gioui.org/doc/install/android">
+							<div>Prev</div>
+							<div>Android</div>
+						</a>
+						
+						
+						<a class="after" href="https://gioui.org/doc/install/wasm">
+							<div>Next</div>
+							<div>WebAssembly</div>
+						</a>
+						
+					</div>
+					
+				</main>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			if(location.hash === "") {
+				var caption = document.getElementById("caption");
+				caption.scrollIntoView(true);
+			}
+		</script>
+		<script src="./iOS, tvOS_files/scripts.js.download"></script>
+	
+
+</div></body></html>
