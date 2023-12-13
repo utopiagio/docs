@@ -27,8 +27,8 @@
 
 					<li>
 						<a href="../docs/api/api_reference.html" >API Reference</a>
-						<input class="nav-toggle" id="api_reference" type="checkbox" >
-						<label for="api_reference"><span class="font-size:small">▼</span></label>
+						<input class="nav-toggle" id="docs/api_reference" type="checkbox" >
+						<label for="docs/api_reference"><span class="font-size:small">▼</span></label>
 						<ul>
 
 							<li>
@@ -71,12 +71,12 @@
 						<ul>
 
 							<li>
-								<a href="./install/linux" >Linux</a>
+								<a href="docs/install/linux" >Linux</a>
 								
 							</li>
 
 							<li>
-								<a href="/docs/install/windows" >Windows</a>
+								<a href="docs/install/windows" >Windows</a>
 								
 							</li>
 							
