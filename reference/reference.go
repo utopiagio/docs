@@ -14,7 +14,7 @@ func Page(doc string) (content []string) {
 }
 
 var Index []string = []string{"" + 
-	"- [**Demo_GoHello**](Demo_GoHello#)\n"}
+	"- [**Demo_GoHello**](ref.Demo_GoHello#)\n"}
 
 var Demo_GoHello []string = []string{"" + 
 	"### GoHello Example\n"}
